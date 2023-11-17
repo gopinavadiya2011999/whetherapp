@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:whetherapp/Infrastructure/Constant/color_costant.dart';
 import 'map_controller.dart';
 
@@ -9,18 +8,19 @@ class MapScreen extends GetView<MapController> {
 
   @override
   Widget build(BuildContext context) {
-
-
     return Scaffold(
         backgroundColor: ThemeColors.primaryText(context),
         body: Center(
           child: Text(
             "Map Screen",
             textAlign: TextAlign.start,
-            style:  TextStyle(fontWeight: FontWeight.w400, color: ThemeColors.primarySurface(context),
-                letterSpacing: 0.5, fontSize: 20),
+            style: TextStyle(
+                fontWeight: FontWeight.w400,
+                color: ThemeColors.primarySurface(context),
+                letterSpacing: 0.5,
+                fontSize: 20),
           ),
-        )/*GoogleMap(
+        ) /*GoogleMap(
           mapType: MapType.normal,
           zoomControlsEnabled: false,
           compassEnabled: false,
@@ -30,6 +30,7 @@ class MapScreen extends GetView<MapController> {
           initialCameraPosition:  CameraPosition(
             target: LatLng(20.967, 72.900), zoom: 12),
 
-        )*/);
+        )*/
+        );
   }
 }
