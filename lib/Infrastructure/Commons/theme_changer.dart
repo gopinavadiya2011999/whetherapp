@@ -13,10 +13,6 @@ class ConstantTheme{
         background: Colors.white, //primarySurface
         primary: ColorConstants.black, //primaryText
         secondary: ColorConstants.grey5, //secondaryText
-        surface: ColorConstants.greyLight, //surfaceAlt
-        onPrimary: ColorConstants.grey, //iconPrimary
-        primaryContainer: ColorConstants.grey5, //iconInActive
-        onPrimaryContainer: ColorConstants.grey4, //border
       ),
       useMaterial3: true,
   );
@@ -34,13 +30,6 @@ class ConstantTheme{
         background: Colors.black, //primarySurface
         primary: ColorConstants.white, //primaryText
         secondary: ColorConstants.grey, //secondaryText
-        surface: ColorConstants.blackAlt, //surfaceAlt
-        onPrimary: ColorConstants.white, //iconPrimary
-        primaryContainer: ColorConstants.white, //iconInActive
-        onPrimaryContainer: ColorConstants.greyAlt, //border
-      ),
-      dialogTheme: const DialogTheme(
-        backgroundColor: ColorConstants.blackAlt,
       ),
   );
 }
